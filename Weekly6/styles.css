@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrap {
+    background-color: #f9f7db ;
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-content {
+    height: 100%;
+    width:60%;
+    display: flex;
+
+}
+.top-content-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.adv {
+    width: 15%;
+    background: url(Screenshot\ 2023-09-23\ 192633.png) no-repeat;
+    height: 100%;
+    background-size: contain;
+}
+.adv img {
+    width: 100%;
+    height: 100%;
+}
+.about {
+    background:  #cd4007 url(Screenshot\ 2023-09-23\ 195030.png) no-repeat;
+    height: 92%;
+    width: 40%;
+    border: none;
+    outline: none;
+    background-size: contain;
+    position: relative;
+}
+.about img {
+    width: 100%;
+    height: 20%;
+    border: none;
+    outline: none;
+}
+.events {
+    background: #9fb31a  url(Screenshot\ 2023-09-23\ 195521.png) no-repeat;
+    height: 92%;
+    width: 40%;
+    border: none;
+    outline: none;
+    background-size: contain;
+    position: relative;
+}
+.events img {
+    width: 100%;
+    height: 20%;
+    border: none;
+    outline: none;
+}
+.about-home{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    width: 22%;
+    height: 13%;
+    right: 0;
+    top: 0;
+    padding-top: 10%;
+    background: #F6F4E3 url(Screenshot\ 2023-09-24\ 153003.png) no-repeat;
+    background-size: contain;
+}
+.about-home:hover {
+    padding-top:25%;
+    height: 18%;
+}
+.about-home a{
+    height: 20%;
+    color: #646464;
+    font-weight: 600;
+    text-decoration: none;
+}
+.events-info {
+    background:  #F6F4E3 url(Screenshot\ 2023-09-24\ 161843.png) no-repeat;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    width: 22%;
+    height: 13%;
+    right: 0;
+    top: 0;
+    padding-top: 10%;
+    background-size: contain;
+}  
+.events-info:hover{
+    padding-top:25%;
+    height: 18%;
+}
+.events-info a {
+    height: 20%;
+    color: #646464;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+.top-content-right {
+    width: 50%;
+    height: 34%;
+}
+.right-top {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 2%;
+}
+.menu {
+    width: 50%;
+}
+.list li {
+    list-style: none;
+    width: 100%;
+    margin: 2%;
+}
+.list li a {
+    width: 100%;;
+    font-size: 12px;
+    color: #636038;
+    line-height: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: #b1ae7e dotted 1px;
+}
+.jobs-image {
+    width: 50%;
+    height: 100%;
+}
+.jobs-image img {
+    width: 75%;
+    height: 100%;
+}
+.right-center {
+    width: 100%;
+    height: 100%;
+}
+.right-center h1 {
+    color: red;
+    font-size: 2.8rem;
+}
+.additionalLinks ul {
+    list-style: none;
+    text-decoration: none;
+    
+}
+.additionalLinks li {
+    margin: 2%;
+    background-color: white;
+}
+.additionalLinks li a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+.right-down {
+    height: 92%;
+    width: 100%;
+}
+.emaildiv {
+    position: relative;
+    height: 45%;
+    width: 100%;
+    background: url(Screenshot\ 2023-09-24\ 211416.png) no-repeat;
+    background-size: contain;
+}
+.emailbar{
+    border: 1px solid black;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 50%;
+
+}
+li a:hover {
+    color: #9fb31a;
+}
